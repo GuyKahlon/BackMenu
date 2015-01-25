@@ -19,12 +19,13 @@ For example:
     frontWindow?.rootViewController = front;
 
 Three more important things:
-1. Change the window Level
-2. Call to: startSwipeToOpenMenu() 
-3. Call to: makeKeyAndVisible();
+    1. Change the window Level
+    2. Call to: startSwipeToOpenMenu() 
+    3. Call to: makeKeyAndVisible();
 
     frontWindow?.windowLevel = UIWindowLevelStatusBar
     frontWindow?.startSwipeToOpenMenu()
     frontWindow?.makeKeyAndVisible();
     
-Please note: There is also the method: stopSwipeToOpenMenu() in extension UIWindow class.
+Please note: There is also the method: stopSwipeToOpenMenu() in extension UIWindow class, Call to this method when you want to disable the menu.
+
