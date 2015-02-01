@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		50E29E131A756BFF003AAE57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E29E121A756BFF003AAE57 /* AppDelegate.swift */; };
-		50E29E151A756BFF003AAE57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E29E141A756BFF003AAE57 /* ViewController.swift */; };
 		50E29E181A756BFF003AAE57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50E29E161A756BFF003AAE57 /* Main.storyboard */; };
 		50E29E1A1A756BFF003AAE57 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50E29E191A756BFF003AAE57 /* Images.xcassets */; };
 		50E29E1D1A756BFF003AAE57 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50E29E1B1A756BFF003AAE57 /* LaunchScreen.xib */; };
 		50E29E291A756C00003AAE57 /* BackMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E29E281A756C00003AAE57 /* BackMenuTests.swift */; };
+		50E29E331A756D4F003AAE57 /* WindowExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E29E321A756D4F003AAE57 /* WindowExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +29,13 @@
 		50E29E0D1A756BFF003AAE57 /* BackMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BackMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50E29E111A756BFF003AAE57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50E29E121A756BFF003AAE57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		50E29E141A756BFF003AAE57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		50E29E171A756BFF003AAE57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		50E29E191A756BFF003AAE57 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		50E29E1C1A756BFF003AAE57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		50E29E221A756C00003AAE57 /* BackMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BackMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50E29E271A756C00003AAE57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50E29E281A756C00003AAE57 /* BackMenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackMenuTests.swift; sourceTree = "<group>"; };
+		50E29E321A756D4F003AAE57 /* WindowExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WindowExtension.swift; path = BackMenu/Source/WindowExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +59,7 @@
 		50E29E041A756BFF003AAE57 = {
 			isa = PBXGroup;
 			children = (
+				50E29E321A756D4F003AAE57 /* WindowExtension.swift */,
 				50E29E0F1A756BFF003AAE57 /* BackMenu */,
 				50E29E251A756C00003AAE57 /* BackMenuTests */,
 				50E29E0E1A756BFF003AAE57 /* Products */,
@@ -78,7 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				50E29E121A756BFF003AAE57 /* AppDelegate.swift */,
-				50E29E141A756BFF003AAE57 /* ViewController.swift */,
 				50E29E161A756BFF003AAE57 /* Main.storyboard */,
 				50E29E191A756BFF003AAE57 /* Images.xcassets */,
 				50E29E1B1A756BFF003AAE57 /* LaunchScreen.xib */,
@@ -212,8 +212,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50E29E151A756BFF003AAE57 /* ViewController.swift in Sources */,
 				50E29E131A756BFF003AAE57 /* AppDelegate.swift in Sources */,
+				50E29E331A756D4F003AAE57 /* WindowExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
