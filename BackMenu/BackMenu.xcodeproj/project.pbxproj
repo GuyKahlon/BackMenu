@@ -156,6 +156,8 @@
 		50E29E051A756BFF003AAE57 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = GuyKahlon;
 				TargetAttributes = {
@@ -405,6 +407,7 @@
 				50E29E2E1A756C00003AAE57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		50E29E2F1A756C00003AAE57 /* Build configuration list for PBXNativeTarget "BackMenuTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +416,7 @@
 				50E29E311A756C00003AAE57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

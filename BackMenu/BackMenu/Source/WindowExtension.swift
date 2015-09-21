@@ -98,7 +98,7 @@ extension UIWindow{
                 }, completion: { (finished: Bool) -> Void in
             })
         default:
-            println("Unknown panGesture state")
+            print("Unknown panGesture state")
         }
     }
     
